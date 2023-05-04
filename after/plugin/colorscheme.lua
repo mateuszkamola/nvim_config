@@ -1,1 +1,1 @@
-vim.cmd("colo gruvbox")
+vim.cmd("colo tokyonight-night")
