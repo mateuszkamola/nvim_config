@@ -10,7 +10,8 @@ lsp.ensure_installed({
 	'gopls',
 	'clangd',
 	'pylsp',
-	'jdtls'
+	'jdtls',
+	'typescript-language-server'
 })
 
 lsp.skip_server_setup({'jdtls'})
