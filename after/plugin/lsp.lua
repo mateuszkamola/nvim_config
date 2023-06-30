@@ -11,7 +11,7 @@ lsp.ensure_installed({
 	'clangd',
 	'pylsp',
 	'jdtls',
-	'typescript-language-server'
+	'tsserver'
 })
 
 lsp.skip_server_setup({'jdtls'})
