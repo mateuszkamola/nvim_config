@@ -19,4 +19,12 @@ lsp.skip_server_setup({'jdtls'})
 -- (Optional) Configure lua language server for neovim
 lsp.nvim_workspace()
 
+local cmp = require'cmp'
+cmp.setup({
+	mapping = cmp.mapping.preset.insert({
+		['<CR>'] = cmp.mapping.confirm({ select = false }),
+	})
+})
+
+
 lsp.setup()
